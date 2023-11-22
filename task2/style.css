@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #00d0ff;
+    padding: 50px;
+    color: black;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+#header1,#header2,#header3{
+    width: 1400px;
+    height: 94px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 36px 120px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+#header1 .header-left,
+#header2 .header-center{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+#header1 .header-left a,
+#header2 .header-center a{
+    color: black;
+    text-decoration: none;
+}
+
+#header1 .header-center ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#header1 .header-center ul li{
+    display: flex;
+    align-items: center;
+}
+
+#header1 .header-center ul li a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#header1 .header-center ul li a:hover{
+    color: #00d0ff;
+}
+
+#header1 .header-center ul li .header-img{
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+#header1 .header-right a,
+#header2 .header-right a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    margin-right: 33px;
+}
+
+#header1 .header-right button{
+    color: white;
+    border-radius: 30px;
+    background: #EF233C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 8px 20px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#header1 .header-right button:hover{
+    background: #ff001e;
+}
+
+/* header1 end */
+/* header2 start */
+
+#header2 .header-left p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 10px;
+    border: 1px solid #EF233C;
+    padding: 8px 16px;
+    background: #FFF;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#header2 .header-left p:hover{
+    background-color: #EF233C;
+    color: white;
+}
+
+#header2 .header-right a:nth-child(2){
+    margin: 0;
+}
+
+/* header2 end */
+
+#header3{
+    display: flex;
+    justify-content: center;
+}
+
+#header3 .header-center ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#header3 .header-center ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+
+#header3 .header-center ul li a:hover{
+    color: #00d0ff;
+}
+
+#header3 .header-center ul li button{
+    border-radius: 28px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    transition: all 0.3s;
+}
+
+#header3 .header-center ul li button:hover{
+    border: 1px solid #00d0ff;
+    color: #00d0ff;
+}
